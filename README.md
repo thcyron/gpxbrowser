@@ -11,7 +11,7 @@ GPX Browser is still in development and only basic features have been implemente
 
 ## Screenshot
 
-<center>![GPX Browser screenshot](screenshot.png)</center>
+<center>![GPX Browser screenshot](screenshot.jpg)</center>
 
 ## Building and running GPX Browser
 
