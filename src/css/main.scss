@@ -1,0 +1,47 @@
+$brand-primary: rgb(30, 179, 0);
+$link-hover-color: $brand-primary;
+$font-size-h1: 22px;
+
+@import "../../node_modules/leaflet/dist/leaflet";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+body {
+  padding: 0;
+  margin: 40px;
+}
+
+.kill-last-margin > :last-child {
+  margin-bottom: 0;
+}
+
+.directory {
+  li.dir {
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+.doc-map {
+  height: 600px;
+}
+
+.doc-title {
+  margin: 0 0 20px 0;
+}
+
+.doc-summary {
+  @extend .list-inline;
+  margin: 0 0 20px 0;
+
+  li {
+    padding: 0;
+  }
+  li + li {
+    padding-left: 20px;
+  }
+}
+
+.doc-tabs {
+  margin-bottom: 20px;
+}
