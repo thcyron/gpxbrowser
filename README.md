@@ -9,6 +9,10 @@ Parsing the GPX files is not done in JavaScript, but outsourced to
 
 GPX Browser is still in development and only basic features have been implemented.
 
+## Screenshot
+
+<center>![GPX Browser screenshot](screenshot.png)</center>
+
 ## Building and running GPX Browser
 
 In the project’s root directory, run:
